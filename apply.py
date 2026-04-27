@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 
 # Tus datos
 payload = {
-    "action_run_link": "PLACEHOLDER",
+    "action_run_link": f"https://github.com/MartinBernardoBonilla/b12-application/actions/runs/{os.environ.get('GITHUB_RUN_ID', '')}",
     "email": "martinbernardobonilla@gmail.com",
     "name": "Martín Bernardo Bonilla",
     "repository_link": "https://github.com/MartinBernardoBonilla/b12-application",
